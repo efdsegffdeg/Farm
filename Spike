@@ -1,0 +1,5 @@
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(681.880005, 368.075165, -221.552765, -0.00474274158, -0.341914952, 0.939719081, 3.17543745e-05, 0.939729452, 0.341918916, -0.999988914, 0.00165140629, -0.00444602966)
+local A_1 = "Spike Egg"
+local A_2 = "Buy1"
+local Event = game:GetService("ReplicatedStorage").Modules.Events.EggBuy
+Event:InvokeServer(A_1, A_2)
