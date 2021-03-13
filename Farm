@@ -1,0 +1,6 @@
+for i,v in pairs(game.Workspace.Coins.Locations:GetChildren()) do
+   if v:IsA("Part") then
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(v.Position)
+   wait(0.1)
+   end
+end
